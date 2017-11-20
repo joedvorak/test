@@ -48,5 +48,12 @@ More code:
       nCounter = 0;
 ```
 
+```Ruby
+# Ruby code with syntax highlighting
+GitHubPages::Dependencies.gems.each do |gem, version|
+  s.add_dependency(gem, "= #{version}")
+end
+```
+
 # Final Design
 Point to the code embedded within this project! Yea! No more PDFs of code! Final Schematics and Design files listed here!
