@@ -34,6 +34,19 @@ Here is a chuck of code:
       //j1939.Transmit(6, 0xEA43, nSrcAddr, 0x43, msgShort, 8);
       nCounter = 0;
 ```
+More code:
+
+```C
+      eng_RPM++;
+      nSrcAddr = j1939.GetSourceAddress();
+      msgShort[3]=eng_RPM&0xFF;
+      msgShort[4]=(eng_RPM>>8)&0xFF;
+      j1939.Transmit(6, 59999, nSrcAddr, 0x43, msgShort, 5);
+      j1939.Transmit(6, 0xFEEE, nSrcAddr, 0x11, msgShort, 8);
+      j1939.Transmit(6, 0xF004, nSrcAddr, 0x11, msgShort, 8);
+      //j1939.Transmit(6, 0xEA43, nSrcAddr, 0x43, msgShort, 8);
+      nCounter = 0;
+```
 
 # Final Design
 Point to the code embedded within this project! Yea! No more PDFs of code! Final Schematics and Design files listed here!
