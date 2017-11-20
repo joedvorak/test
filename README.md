@@ -19,6 +19,8 @@ Images?
 # Outcome and Design Discussion
 How did it work? Did we achieve our goals? Do you have hints for others?
 
+Jekyll does not give us the syntax highlighting that exists in the readme file on the page site.
+
 Here is a chuck of code:
 
 ```Arduino
