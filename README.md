@@ -1,6 +1,4 @@
----
-layout: default
----
+
 Welcome to the test wiki! This is a test to see what form would work best for our documentation. The goal here is to capture all the information to create a good engineering design file.
 
 # Test Project
