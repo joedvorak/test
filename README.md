@@ -21,6 +21,7 @@ How did it work? Did we achieve our goals? Do you have hints for others?
 
 Here is a chuck of code:
 
+```Arduino
       eng_RPM++;
       nSrcAddr = j1939.GetSourceAddress();
       msgShort[3]=eng_RPM&0xFF;
@@ -30,6 +31,7 @@ Here is a chuck of code:
       j1939.Transmit(6, 0xF004, nSrcAddr, 0x11, msgShort, 8);
       //j1939.Transmit(6, 0xEA43, nSrcAddr, 0x43, msgShort, 8);
       nCounter = 0;
+```
 
 # Final Design
 Point to the code embedded within this project! Yea! No more PDFs of code! Final Schematics and Design files listed here!
