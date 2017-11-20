@@ -23,7 +23,7 @@ Jekyll does not give us the syntax highlighting that exists in the readme file o
 
 Here is a chuck of code:
 
-```arduino
+``` Arduino
       eng_RPM++;
       nSrcAddr = j1939.GetSourceAddress();
       msgShort[3]=eng_RPM&0xFF;
