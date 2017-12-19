@@ -1,6 +1,6 @@
 
 Welcome to the test wiki! This is a test to see what form would work best for our documentation. The goal here is to capture all the information to create a good engineering design file.
-More edits.
+
 
 # Test Project
 Created by Joe Dvorak, BAE 305 Team, Others
